@@ -1,0 +1,25 @@
+package com.learn.ch3.model;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Parrot1 {
+    private String name = "koko";
+
+
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Parrot{" +
+                "name='" + name + '\'' +
+                '}';
+    }
+}
