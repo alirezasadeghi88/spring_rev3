@@ -8,13 +8,11 @@ import org.springframework.stereotype.Service;
 public class CommentService {
 
 
-    private final CommentRepository commentRepository;
 
-    public CommentService(CommentRepository commentRepository) {
-        this.commentRepository = commentRepository;
+
+    public CommentService() {
+        System.out.println("CommentService instance created!");
     }
 
-    public CommentRepository getCommentRepository() {
-        return commentRepository;
-    }
+
 }
