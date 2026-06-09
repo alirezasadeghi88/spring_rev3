@@ -1,4 +1,4 @@
-package com.learn.ch5.model;
+package com.learn.ch5.prototype.model;
 
 public class Comment {
     private String text;
