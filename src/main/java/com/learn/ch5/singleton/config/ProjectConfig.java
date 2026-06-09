@@ -1,4 +1,4 @@
-package com.learn.ch5.config;
+package com.learn.ch5.singleton.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
